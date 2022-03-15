@@ -1,0 +1,81 @@
+/* Navbar styling in navbar component */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar_style{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.tag_logo{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.input_search{
+    font-size: 15px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+.add_button{
+    font-size:15px;
+    color: white;
+    border-radius: 15px;
+    border: 1px  solid white;
+    padding: 10px;
+    font-weight: 500;
+}
+
+/* Form Styling In add component */
+
+.form_container{
+    display: flex;
+    justify-content: center;
+}
+
+.form_main{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    height: auto;
+    width: 500px;
+}
+
+.form_label{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top:5px;
+}
+
+.form_input{
+    padding-left: 5px;
+    border: 1.5px solid black;
+    width: 100%;
+    border-radius: 10px;
+    margin-top:5px;
+    height: 50px;
+
+}
+
+.form_add{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.form_head{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
